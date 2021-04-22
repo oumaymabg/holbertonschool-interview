@@ -10,10 +10,9 @@ def canUnlockAll(boxes):
     '''determines if all the boxes can be opned'''
     open = [0]
     for i in open:
-        for boxes in box[i]:
-            if boxes not in open:
-                if boxes < len(box):
-                    open.append(boxes)
-if len(open) == len(box):
-    return True
-return False
+        for box in boxes[i]:
+            if box not in open:
+                    open.append(box)
+    if len(open) == len(box):
+        return True
+    return False
