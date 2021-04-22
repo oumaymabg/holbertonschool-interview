@@ -18,3 +18,7 @@ def canUnlockAll(boxes):
         print ('true')
     else:
         print ('false')
+        def AjoutOpen(open):
+    print ('test3')
+    for i in range (1, len(open) ):
+        print ('test4')     
