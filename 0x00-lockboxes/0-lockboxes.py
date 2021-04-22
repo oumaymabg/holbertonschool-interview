@@ -11,10 +11,10 @@ def canUnlockAll(boxes):
     valide = 'true'
     open = [0]
     for i in open:
-        (len(open) != len(boxes)):
-            print ('test1')
-
-        if (len(open) == len(boxes)):
-            print ('true')
-        else:
-            print ('false')   
+        for boxes in box[i]:
+            if boxes not in open:
+                if boxes < len(box):
+                    open.append(boxes)
+if len(open) == len(box):
+    return True
+return False
