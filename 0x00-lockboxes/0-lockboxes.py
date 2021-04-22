@@ -8,7 +8,6 @@ lockboxes , we have n number  of locked boxes in front of you.
 
 def canUnlockAll(boxes):
     '''determines if all the boxes can be opned'''
-    valide = 'true'
     open = [0]
     for i in open:
         for boxes in box[i]:
