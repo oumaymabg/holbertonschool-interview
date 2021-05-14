@@ -12,9 +12,9 @@ def minOperations(n):
     divisor = 2
     quotient = n
     while quotient > 1:
-        if (quotient % divisor ) == 0:
+        if (quotient % divisor) == 0:
             quotient = quotient // divisor
             operation += divisor
         else:
             divisor += 1
-    return operation 
+return operation
