@@ -4,7 +4,7 @@ const request = require('request');
 
 try {
   const movieId = process.argv[2];
-  const url = `https://swapi.dev/api/films/${movieId}/`;
+  const url = `https://swapi-api.hbtn.io/api/${movieId}/`;
   request(url, async function (error, response, body) {
     if (error) {
       console.log(error);
